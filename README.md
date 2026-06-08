@@ -1,18 +1,22 @@
-# Land-Registry-
-# Land Registry Management System Using Blockchain
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Land Registry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-## Technologies
-- Blockchain
-- Ethereum
-- Solidity
-- React JS
-- Machine Learning
+<h1>Land Registry Management</h1>
 
-## Features
-- Secure land records
-- Fraud detection
-- Smart contracts
-- Transparent ownership
+<input type="text" id="owner" placeholder="Owner Name">
 
-## Developed By
-- B.Mohana
+<input type="text" id="land" placeholder="Land ID">
+
+<button onclick="registerLand()">Register</button>
+
+<h2 id="result"></h2>
+
+<script src="app.js"></script>
+
+</body>
+</html>
